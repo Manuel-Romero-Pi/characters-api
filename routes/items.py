@@ -56,17 +56,7 @@ async def get_all_items():
     ```
     """
     items = get_all_items()
-    # Convert to ItemListResponse (only id, name, height, mass, birth_year)
-    result = []
-    for item in items:
-        result.append({
-            "id": item["id"],
-            "name": item["name"],
-            "height": item["height"],
-            "mass": item["mass"],
-            "birth_year": item.get("birth_year")
-        })
-    return result
+    return items
 
 
 @router.get(
