@@ -8,8 +8,8 @@ from schemas.item import (
     SuccessResponse
 )
 from services.item_service import (
-    get_all_items,
-    get_items_by_name,
+    get_all_items as get_all_items_service,
+    get_items_by_name as get_items_by_name_service,
     add_item as add_item_service,
     delete_item as delete_item_service
 )
@@ -55,7 +55,7 @@ async def get_all_items():
     ]
     ```
     """
-    items = get_all_items()
+    items = get_all_items_service()
     return items
 
 
@@ -126,7 +126,7 @@ async def get_items_by_name(name: str):
     ]
     ```
     """
-    items = get_items_by_name(name)
+    items = get_items_by_name_service(name)
     if not items:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,

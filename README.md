@@ -4,12 +4,12 @@ API REST desarrollada con FastAPI para gestionar items de personajes de Star War
 
 ## Características
 
-- ✅ Consultar todos los items almacenados
-- ✅ Buscar items por nombre
-- ✅ Agregar nuevos items
-- ✅ Eliminar items por ID
-- ✅ Validación automática de datos con Pydantic
-- ✅ Documentación interactiva automática (Swagger UI y ReDoc)
+- Consultar todos los items almacenados
+- Buscar items por nombre
+- Agregar nuevos items
+- Eliminar items por ID
+- Validación automática de datos con Pydantic
+- Documentación interactiva automática (Swagger UI y ReDoc)
 
 ## Requisitos Previos
 
@@ -21,7 +21,7 @@ API REST desarrollada con FastAPI para gestionar items de personajes de Star War
 1. Clonar el repositorio:
 ```bash
 git clone <url-del-repositorio>
-cd backend-path-level-1
+cd characters-api
 ```
 
 2. Crear y activar un ambiente virtual:

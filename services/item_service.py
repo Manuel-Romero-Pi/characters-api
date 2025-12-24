@@ -11,7 +11,8 @@ INITIAL_DATA = [
         "mass": 77,
         "hair_color": "blond",
         "skin_color": "fair",
-        "eye_color": "blue"
+        "eye_color": "blue",
+        "birth_year": None
     },
     {
         "id": 2,
@@ -20,7 +21,8 @@ INITIAL_DATA = [
         "mass": 32,
         "hair_color": "n/a",
         "skin_color": "blue",
-        "eye_color": "red"
+        "eye_color": "red",
+        "birth_year": None
     },
     {
         "id": 3,
@@ -29,7 +31,8 @@ INITIAL_DATA = [
         "mass": 75,
         "hair_color": "n/a",
         "skin_color": "gold",
-        "eye_color": "yellow"
+        "eye_color": "yellow",
+        "birth_year": None
     },
     {
         "id": 4,
@@ -38,7 +41,8 @@ INITIAL_DATA = [
         "mass": 136,
         "hair_color": "none",
         "skin_color": "white",
-        "eye_color": "yellow"
+        "eye_color": "yellow",
+        "birth_year": None
     },
     {
         "id": 5,
@@ -47,7 +51,8 @@ INITIAL_DATA = [
         "mass": 49,
         "hair_color": "brown",
         "skin_color": "light",
-        "eye_color": "brown"
+        "eye_color": "brown",
+        "birth_year": None
     },
     {
         "id": 6,
@@ -56,7 +61,8 @@ INITIAL_DATA = [
         "mass": 120,
         "hair_color": "grey",
         "skin_color": "light",
-        "eye_color": "blue"
+        "eye_color": "blue",
+        "birth_year": None
     },
     {
         "id": 7,
@@ -65,7 +71,8 @@ INITIAL_DATA = [
         "mass": 75,
         "hair_color": "brown",
         "skin_color": "light",
-        "eye_color": "blue"
+        "eye_color": "blue",
+        "birth_year": None
     },
     {
         "id": 8,
@@ -74,7 +81,8 @@ INITIAL_DATA = [
         "mass": 32,
         "hair_color": "n/a",
         "skin_color": "white",
-        "eye_color": "red"
+        "eye_color": "red",
+        "birth_year": None
     }
 ]
 
