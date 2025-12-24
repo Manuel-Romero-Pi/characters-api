@@ -8,8 +8,8 @@ from schemas.item import (
     SuccessResponse
 )
 from services.item_service import (
-    get_all_items,
-    get_items_by_name,
+    get_all_items as get_all_items_service,
+    get_items_by_name as get_items_by_name_service,
     add_item as add_item_service,
     delete_item as delete_item_service
 )
@@ -55,18 +55,8 @@ async def get_all_items():
     ]
     ```
     """
-    items = get_all_items()
-    # Convert to ItemListResponse (only id, name, height, mass, birth_year)
-    result = []
-    for item in items:
-        result.append({
-            "id": item["id"],
-            "name": item["name"],
-            "height": item["height"],
-            "mass": item["mass"],
-            "birth_year": item.get("birth_year")
-        })
-    return result
+    items = get_all_items_service()
+    return items
 
 
 @router.get(
@@ -136,7 +126,7 @@ async def get_items_by_name(name: str):
     ]
     ```
     """
-    items = get_items_by_name(name)
+    items = get_items_by_name_service(name)
     if not items:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,

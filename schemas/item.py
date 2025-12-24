@@ -53,7 +53,7 @@ class ItemListResponse(BaseModel):
                 "name": "Luke Skywalker",
                 "height": 172,
                 "mass": 77,
-                "birth_year": None
+                "birth_year": "1967"
             }
         }
 
