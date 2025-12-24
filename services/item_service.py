@@ -12,7 +12,7 @@ INITIAL_DATA = [
         "hair_color": "blond",
         "skin_color": "fair",
         "eye_color": "blue",
-        "birth_year": None
+        "birth_year": "1956"
     },
     {
         "id": 2,
@@ -22,7 +22,7 @@ INITIAL_DATA = [
         "hair_color": "n/a",
         "skin_color": "blue",
         "eye_color": "red",
-        "birth_year": None
+        "birth_year": "1957"
     },
     {
         "id": 3,
@@ -32,7 +32,7 @@ INITIAL_DATA = [
         "hair_color": "n/a",
         "skin_color": "gold",
         "eye_color": "yellow",
-        "birth_year": None
+        "birth_year": "1946"
     },
     {
         "id": 4,
@@ -42,7 +42,7 @@ INITIAL_DATA = [
         "hair_color": "none",
         "skin_color": "white",
         "eye_color": "yellow",
-        "birth_year": None
+        "birth_year": "1926"
     },
     {
         "id": 5,
@@ -52,7 +52,7 @@ INITIAL_DATA = [
         "hair_color": "brown",
         "skin_color": "light",
         "eye_color": "brown",
-        "birth_year": None
+        "birth_year": "1976"
     },
     {
         "id": 6,
@@ -62,7 +62,7 @@ INITIAL_DATA = [
         "hair_color": "grey",
         "skin_color": "light",
         "eye_color": "blue",
-        "birth_year": None
+        "birth_year": "1996"
     },
     {
         "id": 7,
@@ -72,7 +72,7 @@ INITIAL_DATA = [
         "hair_color": "brown",
         "skin_color": "light",
         "eye_color": "blue",
-        "birth_year": None
+        "birth_year": "2000"
     },
     {
         "id": 8,
@@ -82,7 +82,7 @@ INITIAL_DATA = [
         "hair_color": "n/a",
         "skin_color": "white",
         "eye_color": "red",
-        "birth_year": None
+        "birth_year": "2010"
     }
 ]
 
